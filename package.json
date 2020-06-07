@@ -1,0 +1,17 @@
+{
+  "name": "provide",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "live-server .",
+    "compile": "lessc styles.less styles.css"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "less": "^3.11.3"
+  }
+}
